@@ -6,7 +6,7 @@ const Register = () => {
   const alertContext = useContext(AlertContext);
   const authContext = useContext(AuthContext);
 
-  const { setALert } = alertContext;
+  const { setAlert } = alertContext;
   const { register, error, clearErrors } = authContext;
 
   useEffect(() => {
